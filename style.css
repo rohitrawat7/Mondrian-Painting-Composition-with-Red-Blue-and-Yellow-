@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 720px;
+    height: 720px;
+    display: grid;
+    background-color: black;
+    grid-template-rows: 252px 252px 81px 81px;
+    grid-template-columns: 180px 464px 40px;
+    gap: 18px;
+}
+.box-1{
+    background-color: #F0F1EC;
+}
+.box-2{
+    grid-row: span 2;
+    grid-column: span 2;
+    background-color: #E72F24;
+}
+.box-3{
+    background-color: #F0F1EC;
+}
+.box-4{
+    grid-row: span 2;
+    background-color: #004592;
+}
+.box-5{
+    grid-row: span 2;
+    background-color: #F0F1EC;
+}
+.box-6{
+    background-color: #F0F1EC;
+}
+.box-7{
+    background-color: #F9D01E;
+}
